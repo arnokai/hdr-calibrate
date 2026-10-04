@@ -417,7 +417,7 @@ class HDRCalibrateWindow(Gtk.ApplicationWindow):
             "1. <b>Minimum Luminance:</b> Adjust black floor to avoid black crush and milky grays.\n"
             "2. <b>Maximum Luminance:</b> Tune peak white highlights to prevent highlight clipping.\n"
             "3. <b>Max Frame-Average:</b> Adjust sustained full-screen white brightness.\n"
-            "4. <b>SDR Brightness & Saturation:</b> Balance desktop colors so SDR windows look natural."
+            "4. <b>SDR Brightness &amp; Saturation:</b> Balance desktop colors so SDR windows look natural."
         )
         lbl_steps_text = Gtk.Label()
         lbl_steps_text.set_markup(steps_text)
@@ -902,7 +902,7 @@ class HDRCalibrateWindow(Gtk.ApplicationWindow):
         box.set_margin_bottom(10)
 
         lbl_title = Gtk.Label()
-        lbl_title.set_markup("<span size='large' weight='bold'>Step 4: SDR Brightness & Color Saturation Multipliers</span>")
+        lbl_title.set_markup("<span size='large' weight='bold'>Step 4: SDR Brightness &amp; Color Saturation Multipliers</span>")
         lbl_title.set_halign(Gtk.Align.START)
         box.append(lbl_title)
 
