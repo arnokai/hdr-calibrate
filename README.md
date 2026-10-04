@@ -66,7 +66,7 @@ sudo apt install libgtk-4-dev python3-gi python3-cairo edid-decode mpv ffmpeg
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/hdr-calibrate.git
+   git clone https://github.com/arnokai/hdr-calibrate.git
    cd hdr-calibrate
    ```
 
