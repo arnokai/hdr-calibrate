@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=HDR Calibration
+GenericName=HDR Display Calibration Wizard
+Comment=Calibrate peak highlights, black floor, and tone mapping for HDR displays on Linux
+Exec=hdr-calibrate
+Icon=preferences-desktop-display
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;Utility;
+Keywords=hdr;calibration;display;monitor;brightness;luminance;

@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local AI memory & context links (keep public git repo clean)
+.context
+.ai
+.global-rules.md
+graphify-out
+graphify-out/
+.graphify_analysis.json
+
+# Environment & User configurations
+.env
+*.log
+.DS_Store
